@@ -2,7 +2,7 @@
 
 from datetime import datetime
 
-print ("아무말3 for Python Alpha001")
+print ("아무말3 for Python3 Alpha001")
 print ("by 루냥이, at 20180318, Twitter @ItsLunaNyan")
 print (" ")
 
