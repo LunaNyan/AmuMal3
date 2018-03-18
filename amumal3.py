@@ -13,6 +13,9 @@ help01 = "이 프로그램은 타임라인 방식으로 메모를 기록하는 �
 help02 = "간단히 메모할 내용을 입력하고 Enter을 눌러 기록합니다."
 help03 = "메모할 내용 대신 원하는 명령어를 입력하면 동작이 수행됩니다."
 
+logfoo = open("amumal.txt", "w")
+logfoo.close()
+
 logr = open("amumal.txt", "r")
 
 if logr.read(8) == "":
