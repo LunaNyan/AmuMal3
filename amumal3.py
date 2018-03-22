@@ -54,6 +54,7 @@ while 1:
     elif inp == "cls":
         print ("\n" * 100)
     else:
+        #Write
         logf = open("amumal.txt", "a")
         logf.write(inp + "\n" + str(datetime.now()) + "\n----------\n")
         logf.close()
